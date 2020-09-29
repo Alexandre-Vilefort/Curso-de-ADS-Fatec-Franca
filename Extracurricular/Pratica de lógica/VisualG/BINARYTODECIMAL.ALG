@@ -4,11 +4,11 @@ Algoritmo "binarytodecimal"
 Var
 
    b, soma, bin: real
-   i: inteiro
+   i,j: inteiro
 
 
 Inicio
-      escreva("Digite um número Binário: ")
+      escreva("Digite um nÃºmero BinÃ¡rio: ")
       leia(bin)
       escreval()
       soma <- 0
@@ -21,7 +21,7 @@ Inicio
            fimse
       fimpara
 
-      escreval("O número decimal é:",soma)
+      escreval("O nÃºmero decimal Ã©:",soma)
 
 
 Fimalgoritmo
