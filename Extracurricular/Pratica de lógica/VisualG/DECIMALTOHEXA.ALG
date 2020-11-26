@@ -9,19 +9,19 @@ Var
 Inicio
       //Entradas
 
-      escreva("Digite um número decimal: ")
+      escreva("Digite um nï¿½mero decimal: ")
       leia(num)
       t <- 0
       escreval()
       
-      //Processamento
+      //Processamento teste
       
       para i <- 1 ate 8 faca
            resto[i] <- num % 16
            num <- int(num / 16)
       fimpara
 
-      //Saídas
+      //Saï¿½das
       para i <- 8 ate 1 passo -1 faca
               se (resto[i] <> 0) ou (t <> 0) entao
                  t <- 1
