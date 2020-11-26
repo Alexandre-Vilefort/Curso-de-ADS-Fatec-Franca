@@ -14,7 +14,7 @@ Inicio
       t <- 0
       escreval()
       
-      //Processamento teste
+      //Processamento teste 1
       
       para i <- 1 ate 8 faca
            resto[i] <- num % 16
